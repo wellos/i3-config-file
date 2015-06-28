@@ -31,10 +31,6 @@ bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
-# execute gnome setting deamon, which allows to use mutimedia keys etc
-exec /usr/libexec/gnome-settings-daemon
-
-
 ###############################################
 
 
